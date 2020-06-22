@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using Microsoft.Extensions.Logging;
 using setVideo.Model;
 using setVideo.Repository;
@@ -25,7 +24,7 @@ namespace setVideo.Service
 
         }
 
-        
+
         public string Alter(int idMovie, int idCustomer, string action)
         {
             Movie movie = new Movie();
@@ -77,6 +76,8 @@ namespace setVideo.Service
                 throw;
             }
         }
+
+        
         public string createDb()
         {
             string ret = "";
@@ -116,16 +117,18 @@ namespace setVideo.Service
             string ret = "";
             try
             {
+                Location locacationOld = _locationRepository.GetLocation(location.Customer);
 
-                if (location.locationDevolution > DateTime.Now)
+                if (locacationOld.locationDevolution > DateTime.Now)
                 {
                     ret = "Filme em Atraso!";
 
                 }
 
-                location.locationReturned = DateTime.Now;
-                location.movie.amount += 1;
+                locacationOld.locationReturned = DateTime.Now;
+                locacationOld.movie.amount += 1;
                 _locationRepository.Update(location);
+               
 
                 ret += " Filme devolvido com sucesso !";
                 return ret;
@@ -146,3 +149,4 @@ namespace setVideo.Service
         string createDb();
     }
 }
+

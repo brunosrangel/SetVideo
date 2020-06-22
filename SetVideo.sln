@@ -1,15 +1,15 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "setVideo.Model", "setVideo.Model\setVideo.Model.csproj", "{A31BAC84-C60A-4EC0-9153-38224EEBEE58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "setVideo.Model", "setVideo.Model\setVideo.Model.csproj", "{B603FC56-9DF7-4041-88FB-88F47275E86B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "setVideo.Repository", "setVideo.Repository\setVideo.Repository.csproj", "{218E846D-0ECA-41F3-83F3-154063273235}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "setVideo.Repository", "setVideo.Repository\setVideo.Repository.csproj", "{187C3756-CFCA-42B2-8277-D580A56F2BCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "setVideo.Service", "setVideo.Service\setVideo.Service.csproj", "{6648240F-1539-447B-AAC5-3EB64191C190}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "setVideo.Service", "setVideo.Service\setVideo.Service.csproj", "{EC16CC7F-CC07-4354-9C69-E4913081E3F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "setVideo.WebApi", "setVideo.WebApi1\setVideo.WebApi.csproj", "{941A68E4-A38B-4340-8811-0DC3F1839AA4}"
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "setVideo.test", "setVideo.test\setVideo.test.csproj", "{2EDBB17F-72E3-4A2A-97CE-380C929CC399}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "setVideo.test", "setVideo.test\setVideo.test.csproj", "{CCEEF1B9-BBDD-4C6F-844B-AD6AA7BE619A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "setVideo.WebApi", "setVideo.WebApi\setVideo.WebApi.csproj", "{75011A51-7A75-49E2-A59B-26D41997A17F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,26 +17,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A31BAC84-C60A-4EC0-9153-38224EEBEE58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A31BAC84-C60A-4EC0-9153-38224EEBEE58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A31BAC84-C60A-4EC0-9153-38224EEBEE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A31BAC84-C60A-4EC0-9153-38224EEBEE58}.Release|Any CPU.Build.0 = Release|Any CPU
-		{218E846D-0ECA-41F3-83F3-154063273235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{218E846D-0ECA-41F3-83F3-154063273235}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{218E846D-0ECA-41F3-83F3-154063273235}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{218E846D-0ECA-41F3-83F3-154063273235}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6648240F-1539-447B-AAC5-3EB64191C190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6648240F-1539-447B-AAC5-3EB64191C190}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6648240F-1539-447B-AAC5-3EB64191C190}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6648240F-1539-447B-AAC5-3EB64191C190}.Release|Any CPU.Build.0 = Release|Any CPU
-		{941A68E4-A38B-4340-8811-0DC3F1839AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{941A68E4-A38B-4340-8811-0DC3F1839AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{941A68E4-A38B-4340-8811-0DC3F1839AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{941A68E4-A38B-4340-8811-0DC3F1839AA4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CCEEF1B9-BBDD-4C6F-844B-AD6AA7BE619A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CCEEF1B9-BBDD-4C6F-844B-AD6AA7BE619A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CCEEF1B9-BBDD-4C6F-844B-AD6AA7BE619A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CCEEF1B9-BBDD-4C6F-844B-AD6AA7BE619A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B603FC56-9DF7-4041-88FB-88F47275E86B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B603FC56-9DF7-4041-88FB-88F47275E86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B603FC56-9DF7-4041-88FB-88F47275E86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B603FC56-9DF7-4041-88FB-88F47275E86B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{187C3756-CFCA-42B2-8277-D580A56F2BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{187C3756-CFCA-42B2-8277-D580A56F2BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{187C3756-CFCA-42B2-8277-D580A56F2BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{187C3756-CFCA-42B2-8277-D580A56F2BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC16CC7F-CC07-4354-9C69-E4913081E3F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC16CC7F-CC07-4354-9C69-E4913081E3F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC16CC7F-CC07-4354-9C69-E4913081E3F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC16CC7F-CC07-4354-9C69-E4913081E3F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EDBB17F-72E3-4A2A-97CE-380C929CC399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDBB17F-72E3-4A2A-97CE-380C929CC399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDBB17F-72E3-4A2A-97CE-380C929CC399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDBB17F-72E3-4A2A-97CE-380C929CC399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75011A51-7A75-49E2-A59B-26D41997A17F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75011A51-7A75-49E2-A59B-26D41997A17F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75011A51-7A75-49E2-A59B-26D41997A17F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75011A51-7A75-49E2-A59B-26D41997A17F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
@@ -45,5 +45,6 @@ Global
 		$0.VersionControlPolicy = $2
 		$2.CommitMessageStyle = $3
 		$3.IncludeDirectoryPaths = True
+		$3.LineAlign = 0
 	EndGlobalSection
 EndGlobal

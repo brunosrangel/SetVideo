@@ -9,6 +9,8 @@ namespace setVideo.Repository
     {
   
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Movie> Movies { get; set; }
+        public DbSet<Location> Locations { get; set; }
 
         public setVideoContext(DbContextOptions<setVideoContext> options) :
             base(options)
